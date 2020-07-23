@@ -39,6 +39,23 @@ function modal(message, duration) {
 	sleep(duration).then(() => modalBox.remove());
 }
 
+function uiBlocker(duration) {
+	const uiBlocker = document.createElement("div");
+	uiBlocker.style = `
+	z-index: 1;
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	`;
+	document.getElementsByTagName("html")[0].appendChild(uiBlocker);
+	sleep(duration).then(() => uiBlocker.remove());
+}
+
 function randomIntFromInterval(min, max) {
 	return Math.floor(Math.random() * (max - min + 1) + min);
 }
