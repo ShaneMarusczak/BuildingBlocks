@@ -1,14 +1,6 @@
 /*eslint-disable no-unused-vars */
 "use strict";
 
-function alertModalControl(message, duration) {
-	document.getElementById("alertshader").style.display = "block";
-	document.getElementById("alertmessage").innerText = message;
-	window.sleep(duration).then(() => {
-		document.getElementById("alertshader").style.display = "none";
-	});
-}
-
 function modal(message, duration) {
 	const modalBox = document.createElement("div");
 	const innerModalBox = document.createElement("div");
