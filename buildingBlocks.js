@@ -40,3 +40,19 @@ function getCookie(cname) {
 	return "";
 }
 
+function addEventListenerById(id, event, handler) {
+	document.getElementById(id).addEventListener(event, handler);
+}
+
+function removeEventListenerById(id, event, handler) {
+	document.getElementById(id).removeEventListener(event, handler);
+}
+
+function removeClassFromElementById(id, cls) {
+	document.getElementById(id).classList.remove(cls);
+}
+
+function addClassFromElementById(id, cls) {
+	document.getElementById(id).classList.add(cls);
+}
+
