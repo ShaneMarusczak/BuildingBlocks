@@ -48,18 +48,14 @@
 }
 
 .animation {
-	display: inline-block;
 	position: relative;
-	width: 80px;
-	height: 80px;
+	margin-left: 135px;
 	border: none !important;
-	left: -20px;
-	margin-bottom: 10px;
 }
 
 .animation div {
 	position: absolute;
-	top: 125px;
+	top: -35px;
 	width: 13px !important;
 	height: 13px !important;
 	border-radius: 50%;

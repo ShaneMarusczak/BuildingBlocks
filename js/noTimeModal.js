@@ -11,6 +11,12 @@ function modalOpen(message) {
 	innerModalBox.appendChild(modalMessage);
 	modalBox.appendChild(innerModalBox);
 	modalMessage.innerText = message;
+	const outerAnimationContainer = document.createElement("div");
+	outerAnimationContainer.classList.add("animation");
+	for (let i = 0; i < 3; i++) {
+		outerAnimationContainer.appendChild(document.createElement("div"));
+	}
+	innerModalBox.appendChild(outerAnimationContainer);
 	document.getElementsByTagName("html")[0].appendChild(modalBox);
 }
 
