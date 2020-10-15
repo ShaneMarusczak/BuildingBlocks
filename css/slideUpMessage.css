@@ -1,51 +1,51 @@
 #ui-blocker {
-	z-index: 1;
-	position: fixed;
-	padding: 0;
-	margin: 0;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: transparent;
+  z-index: 1;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
 }
 
 #slide-up-box {
-	z-index: 1;
-	position: fixed;
-	padding: 0;
-	top: 90vh;
-	margin-left: 1%;
-	width: 98%;
-	height: 100%;
-	border-radius: 10px;
-	background: rgba(0, 0, 0, 0.6);
-	box-shadow: inset 0px 0px 0px 1px black;
+  z-index: 1;
+  position: fixed;
+  padding: 0;
+  top: 90vh;
+  margin-left: 1%;
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0px 0px 0px 1px black;
 }
 
 #slide-up-message {
-	position: absolute;
-	top: 10px;
-	left: 15px;
-	font-family: "Orbitron", sans-serif;
-	font-size: xx-large;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-size: xx-large;
 }
 
 #close-button {
-	text-align: center;
-	position: absolute;
-	right: 40px;
-	top: 15px;
-	font-size: 40px;
-	font-weight: bold;
-	border-radius: 30px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	box-shadow: inset 0px 0px 0px 1px black;
+  text-align: center;
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  box-shadow: inset 0px 0px 0px 1px black;
 }
 
 #close-button:hover {
-	cursor: pointer;
-	color: red;
+  cursor: pointer;
+  color: red;
 }
