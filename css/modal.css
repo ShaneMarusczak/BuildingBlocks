@@ -39,7 +39,6 @@
   width: 25px;
   height: 25px;
   line-height: 25px;
-  box-shadow: inset 0px 0px 0px 1px black;
 }
 
 #close-button:hover {
